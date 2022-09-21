@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ColorMap from '../util/ColorMap';
+import colorMap from '../util/colorMap';
 import '../styles/cell.css'
 
 interface IProps { 
@@ -8,10 +8,10 @@ interface IProps {
 
 function Cell(props : IProps) {
     const [value, setValue] = useState(props.value);
-    const [color, setColor] = useState(ColorMap[value] || "");
+    const [color, setColor] = useState(colorMap[value] || "");
 
     useEffect(() => {
-        setColor(ColorMap[value]); 
+        setColor(colorMap[value]); 
     }, [value]);
 
     // Empty cell

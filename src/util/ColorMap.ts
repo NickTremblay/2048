@@ -2,7 +2,7 @@ export interface IColorMap{
     [key: number]: string; 
 }
 
-const ColorMap: IColorMap = {
+const colorMap: IColorMap = {
     2: "#eee4da",
     4: "#ede0c8",
     8: "#f2b179",
@@ -16,4 +16,4 @@ const ColorMap: IColorMap = {
     2048: "#edc22e",
 };
 
-export default ColorMap;
+export default colorMap;
