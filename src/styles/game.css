@@ -1,0 +1,28 @@
+.game {
+    margin: 0 0 0 10%;
+    padding: 0;
+    display: block;
+}
+
+.game table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none;
+    overflow: hidden;
+}
+
+.game tr {
+    padding: 0; 
+    margin: 0; 
+}
+
+.game td {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-width: 2px;
+    border-color: rgb(91, 91, 91);
+    border-style: solid;
+}
