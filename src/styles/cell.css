@@ -1,12 +1,14 @@
 .cell { 
     width: 100%;
     height: 100%;
-    display: inline-block;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cell h1 {
-    display: flex;
+    display: table-cell;
+    vertical-align: middle;
     justify-content: center;
     align-items: center;
-    margin-top: 30%;
 }
